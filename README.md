@@ -5,7 +5,7 @@ An automation for installing [TailwindCSS](https://tailwindcss.com) in a [Bridge
 In your Bridgetown project folder, run:
 
 ```
-bin/bridgetown apply https://github.com/bridgetownrb/tailwindcss-automation
+bin/bridgetown apply https://github.com/Munkun-Estudio/tailwindcss-automation
 ```
 
 (Note: it will overwrite any existing `postcss.config.js` file in your repo.)
@@ -13,7 +13,7 @@ bin/bridgetown apply https://github.com/bridgetownrb/tailwindcss-automation
 You can also apply the automation when creating a new site:
 
 ```
-bridgetown new mysite --apply=https://github.com/bridgetownrb/tailwindcss-automation
+bridgetown new mysite --apply=https://github.com/Munkun-Estudio/tailwindcss-automation
 ```
 
 The automation will add Tailwind to your `package.json`, set up a default Tailwind config, add the import statements to your frontend CSS entrypoint, and add a builder which will detect when content in `src` is modified and trigger Tailwind's JIT compiler to run.
